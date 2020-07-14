@@ -11,3 +11,10 @@ Team dropdown> Apps> Details> Keys and Tokens<br/>
 
 Tweepy documentation can be found [here](http://docs.tweepy.org/en/latest/).  
 Schedule documentation can be found [here](schedule.readthedocs.io).  
+
+#RandomQuotes
+This is another basic Twitter bot, but this one involves pulling random lines from a text file and 
+using those as tweets. API credentials are also grabbed from a text file.<br/>
+
+The credentials file, creds.txt, only needs the API credentials to be entered in place of the
+placeholder variables to work with the python file.
