@@ -1,4 +1,4 @@
-# TwitterBot
+# Twitter_Bot
 This is a basic Twitter bot that tweets daily at a specified time and keeps a daily 
 counter that increments every time the tweet is sent.<br/>
 
