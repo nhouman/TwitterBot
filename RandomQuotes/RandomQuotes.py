@@ -52,10 +52,12 @@ def getQuote():
 #Monday at 10:30 PM. Makes sure that there are
 #more than 0 lines in the list of lines before
 #continuing.
-schedule.every.monday.at("10:30").do(tweet)
-while len(lines) > 0:
-    schedule.run_pending()
-    time.sleep(1)
+def main():
+    schedule.every().monday.at("10:30").do(tweet)
+    while len(lines) > 0:
+        schedule.run_pending()
+        time.sleep(1)
 
+main()
 
 
