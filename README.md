@@ -1,3 +1,7 @@
+# How to Use
+To have these programs run as intended, they would ideally be run from a cloud computer 
+such as AWS EC2/Google Cloud Console or a Raspberry Pi. This is so that the programs aren't ended early or have to restart.
+
 # Twitter_Bot
 This is a basic Twitter bot that tweets daily at a specified time and keeps a daily 
 counter that increments every time the tweet is sent.<br/>
